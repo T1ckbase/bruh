@@ -15,6 +15,15 @@ data = {
 
 url = 'https://group.openpoint.com.tw/auth/service/ajax/login/forget-pwd/send-sms-code'
 
+data2 = {
+    'module': 'user',
+    'action': 'accounttel',
+    'type': '5',
+    'mobileTel': '0966513808'
+}
+
+url2 = 'https://www.591.com.tw/index.php'
+
 response = requests.post(url, headers=headers, data=data)
 if response.status_code == requests.codes.ok:
     j = response.json()
@@ -25,6 +34,9 @@ if response.status_code == requests.codes.ok:
 
     #     with open('t.txt', 'w') as f:
     #         f.write(str(n+1))
+    if not j['codeId'] == '200':
+        response = requests.post(url2, headers=headers, data=data2)
+        print(response.text)
 
 with open('openpoint.log', 'a', encoding='utf-8') as f:
     t = datetime.now(timezone(timedelta(hours=+8))).strftime('%Y-%m-%d %H:%M:%S')

@@ -3,7 +3,7 @@ name: run openpoint.py
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 18,21,5,10,15 * * *'
+    - cron: '45 18,21,1,5,9,13,15 * * *'
 
 permissions:
   contents: write
