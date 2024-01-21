@@ -3,3 +3,4 @@
 [2024-01-21 18:11:26] {"codeId":"727","codeDescription":"已達每日發送上限5次"}
 [2024-01-21 23:48:21] ({"status":"0", "msg":"提醒：24小時內僅能取回兩次。"})
 [2024-01-22 02:48:20] {"codeId":"200","smsExpiredTime":5,"codeDescription":"成功"}
+[2024-01-22 05:48:40] {"codeId":"200","smsExpiredTime":5,"codeDescription":"成功"}
