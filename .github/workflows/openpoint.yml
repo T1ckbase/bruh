@@ -1,4 +1,4 @@
-name: run main.py
+name: run openpoint.py
 
 on:
   workflow_dispatch:
