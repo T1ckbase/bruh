@@ -3,7 +3,7 @@ name: run main.py
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 18,21,5,10,15 * * *'
+    - cron: '0 * * * *'
 
 permissions:
   contents: write
@@ -27,7 +27,7 @@ jobs:
           pip install -r requirements.txt
           
       - name: execute py script
-        run: python openpoint.py
+        run: python acestudio.py
           
       - name: commit files
         run: |
