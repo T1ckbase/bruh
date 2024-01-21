@@ -17,6 +17,6 @@ if response.status_code == requests.codes.ok:
     j = response.json()
     print(j)
 
-with open('log.txt', 'a', encoding='utf-8') as f:
+with open('acestudio.log', 'a', encoding='utf-8') as f:
     t = datetime.now(timezone(timedelta(hours=+8))).strftime('%Y-%m-%d %H:%M:%S')
-    f.write('[' + t + '][' + os.path.basename(__file__) + '] ' + response.text + '\n')
+    f.write('[' + t + '] ' + response.text + '\n')
