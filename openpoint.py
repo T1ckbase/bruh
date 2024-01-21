@@ -19,12 +19,12 @@ response = requests.post(url, headers=headers, data=data)
 if response.status_code == requests.codes.ok:
     j = response.json()
     print(j)
-    if j['codeId'] == '200':
-        with open('t.txt', 'r') as f:
-            n = int(f.read())
+    # if j['codeId'] == '200':
+    #     with open('t.txt', 'r') as f:
+    #         n = int(f.read())
 
-        with open('t.txt', 'w') as f:
-            f.write(str(n+1))
+    #     with open('t.txt', 'w') as f:
+    #         f.write(str(n+1))
 
 with open('openpoint.log', 'a', encoding='utf-8') as f:
     t = datetime.now(timezone(timedelta(hours=+8))).strftime('%Y-%m-%d %H:%M:%S')
