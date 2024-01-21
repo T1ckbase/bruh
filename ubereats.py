@@ -13,7 +13,7 @@ with sync_playwright() as p:
     page.locator('#forward-button').click()
 
     try:
-        page.locator("#PHONE_SMS_OTP-0").fill('0', timeout=10000)
+        page.locator("#PHONE_SMS_OTP-0").fill('0', timeout=30000)
         print('ok')
         state = 'ok'
     except PlaywrightTimeoutError:
