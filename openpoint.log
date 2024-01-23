@@ -14,3 +14,4 @@
 [2024-01-23 10:20:42] {"codeId":"200","smsExpiredTime":5,"codeDescription":"成功"}
 [2024-01-23 13:48:31] {"codeId":"200","smsExpiredTime":5,"codeDescription":"成功"}
 [2024-01-23 17:48:32] {"codeId":"200","smsExpiredTime":5,"codeDescription":"成功"}
+[2024-01-23 21:48:34] ({"status":"1", "msg":"帳號已發送至您的行動電話"})
