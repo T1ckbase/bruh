@@ -46,3 +46,4 @@
 [2024-01-23 16:21:18] {"data": null, "code": 400, "error": "The verification code sending has exceeded the daily limit.", "timestamp": 1705998078283}
 [2024-01-23 17:16:45] {"data": null, "code": 400, "error": "The verification code sending has exceeded the daily limit.", "timestamp": 1706001405412}
 [2024-01-23 18:17:35] {"data": null, "code": 400, "error": "The verification code sending has exceeded the daily limit.", "timestamp": 1706005054899}
+[2024-01-23 19:13:46] {"data": null, "code": 400, "error": "The verification code sending has exceeded the daily limit.", "timestamp": 1706008426207}
